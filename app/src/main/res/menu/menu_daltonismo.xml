@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/itemDeuteranopia"
+        android:title="Deuteranopia" />
+    <item
+        android:id="@+id/itemProtanopia"
+        android:title="Protanopia" />
+    <item
+        android:id="@+id/itemTritanopia"
+        android:title="Tritanopia" />
+</menu>

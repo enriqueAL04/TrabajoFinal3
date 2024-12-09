@@ -5,6 +5,7 @@
     android:layout_height="wrap_content"
     android:padding="8dp">
 
+
     <TextView
         android:id="@+id/textPlaca"
         android:layout_width="0dp"
@@ -20,6 +21,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
+
     <ImageView
         android:id="@+id/imagenPlaca"
         android:layout_width="100dp"
@@ -28,6 +30,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent" />
+
 
     <View
         android:layout_width="0dp"
@@ -39,4 +42,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
+
 </androidx.constraintlayout.widget.ConstraintLayout>
+

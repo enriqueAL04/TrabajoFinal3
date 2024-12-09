@@ -75,7 +75,7 @@ public class AdaptadorPlacas extends RecyclerView.Adapter<AdaptadorPlacas.PlacaV
     // Metodo para deseleccionar una placa
     public void deseleccionarPlaca() {
         try {
-            placaSeleccionada = -1;  // Deseleccionar cualquier placa y notificar al adptador
+            placaSeleccionada = -1;  // Deseleccionar cualquier placa y notificar al adaptador
             notifyDataSetChanged();
         } catch (Exception e) {
             Log.e("AdaptadorPlacas", "Error al deseleccionar la placa: " + e.getMessage());
@@ -95,5 +95,4 @@ public class AdaptadorPlacas extends RecyclerView.Adapter<AdaptadorPlacas.PlacaV
             }
         }
     }
-
 }
